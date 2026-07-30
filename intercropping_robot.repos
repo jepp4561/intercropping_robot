@@ -1,0 +1,5 @@
+repositories:
+  IntercroppingGZ:
+    type: git
+    url: git@github.com:patrikpordi/IntercroppingGZ.git
+    version: main

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Body -->
+    <material name="robot_blue">
+        <color rgba="0.15 0.25 0.55 1.0"/>
+    </material>
+
+    <material name="robot_gray">
+        <color rgba="0.35 0.35 0.35 1.0"/>
+    </material>
+
+    <!-- Wheels -->
+    <material name="rubber_black">
+        <color rgba="0.05 0.05 0.05 1.0"/>
+    </material>
+
+    <!-- Mast -->
+    <material name="aluminum">
+        <color rgba="0.75 0.75 0.78 1.0"/>
+    </material>
+
+    <!-- Camera -->
+    <material name="camera_body">
+        <color rgba="0.90 0.90 0.90 1.0"/>
+    </material>
+
+    <material name="camera_front">
+        <color rgba="0.10 0.10 0.10 1.0"/>
+    </material>
+
+</robot>
