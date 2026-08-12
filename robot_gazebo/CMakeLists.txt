@@ -11,8 +11,8 @@ install(
   DIRECTORY
     launch
     worlds
-    models
-    config
+    # models
+    # config
   DESTINATION
     share/${PROJECT_NAME}
 )

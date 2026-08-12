@@ -7,8 +7,17 @@
   <maintainer email="jeppha@mmmi.sdu.dk"> Jeppe Hansen</maintainer>
   <license>MIT</license>
 
-  <exec_depend>intercropping_gz</exec_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <exec_depend>intercropping_gz</exec_depend>
+  <exec_depend>robot_gazebo</exec_depend>
+
+  <exec_depend>ros_gz_sim</exec_depend>
+  <!-- <exec_depend>controller_manager</exec_depend> -->
+  
   <export>
     <build_type>ament_python</build_type>
   </export>
