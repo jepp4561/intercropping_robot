@@ -3,3 +3,8 @@ repositories:
     type: git
     url: git@github.com:patrikpordi/IntercroppingGZ.git
     version: main
+  
+  robotic-soil-sampling
+    type: git
+    url: git@github.com:jepp4561/robotic-soil-sampling.git
+    version: main

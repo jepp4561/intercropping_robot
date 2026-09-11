@@ -21,8 +21,12 @@ setup(
             glob('launch/*.launch.py')
         ),
         (
-            'share/' + package_name + '/config',
-            glob('config/*')
+            'share/' + package_name + '/config/clearpath/husky',
+            glob('config/clearpath/husky/*')
+        ),
+        (
+            'share/' + package_name + '/urdf',
+            glob('urdf/*.urdf*')
         ),
     ],
     install_requires=['setuptools'],

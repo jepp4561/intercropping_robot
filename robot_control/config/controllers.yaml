@@ -22,7 +22,7 @@
       - br_wheel_joint
 
     wheel_separation: 0.30
-    wheel_radius: 0.05
+    wheel_radius: 0.1
 
     publish_rate: 50.0
 
