@@ -46,13 +46,13 @@ vcs import src < src/intercropping_robot/intercropping_robot.repos
 From the workspace root:
 
 ```bash
-colcon build
+colcon build --symlink-install
 ```
 
 To rebuild only a specific package:
 
 ```bash
-colcon build --packages-select <package_name>
+colcon build --symlink-install --packages-select <package_name>
 ```
 
 ---
@@ -66,13 +66,9 @@ ros2 launch robot_bringup sim.launch.py
 ```
 Additionally, display.launch.py can be run to visualize the virtual camera feed:
 ```bash
-ros2 
+ros2 launch robot_description display.launch.py
 ```
+And then adding the camera through the ros topic
 Additional launch files are available within the individual packages.
 
 ---
-
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.

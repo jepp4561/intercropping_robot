@@ -26,8 +26,8 @@ platform:
       package: robot_bringup
       path: urdf/husky_soil_sampler.urdf.xacro
     ros_parameters:
-      soil_sampler_position_controller:
-        type: position_controllers/JointGroupPositionController
+      soil_sampler_velocity_controller:
+        type: velocity_controllers/JointGroupVelocityController
         joints:
           - soil_sampler_slider_1
-        interface_name: position
+        interface_name: velocity

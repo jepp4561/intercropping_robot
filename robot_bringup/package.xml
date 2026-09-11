@@ -15,6 +15,7 @@
   <exec_depend>intercropping_gz</exec_depend>
   <exec_depend>robot_gazebo</exec_depend>
   <exec_depend>soil_sampler_description</exec_depend>
+  <exec_depend>clearpath_gz</exec_depend>
 
   <exec_depend>ros_gz_sim</exec_depend>
   <!-- <exec_depend>controller_manager</exec_depend> -->
